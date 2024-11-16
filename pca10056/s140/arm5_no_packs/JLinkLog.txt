@@ -1,0 +1,90 @@
+T5094 000:229.170   SEGGER J-Link V7.80c Log File
+T5094 000:230.142   DLL Compiled: Sep 27 2022 16:01:16
+T5094 000:230.162   Logging started @ 2023-12-13 01:41
+T5094 000:230.178 - 230.187ms
+T5094 000:230.203 JLINK_SetWarnOutHandler(...)
+T5094 000:230.221 - 0.026ms
+T5094 000:230.239 JLINK_OpenEx(...)
+T5094 000:232.803   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T5094 000:233.328   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T5094 000:234.229   Decompressing FW timestamp took 123 us
+T5094 000:242.529   Hardware: V9.70
+T5094 000:242.581   S/N: 150710232
+T5094 000:242.613   OEM: SEGGER
+T5094 000:242.647   Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash
+T5094 000:244.925   TELNET listener socket opened on port 19021
+T5094 000:245.169   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T5094 000:245.400   WEBSRV Webserver running on local port 19080
+T5094 000:258.036 - 27.832ms returns "O.K."
+T5094 000:258.104 JLINK_GetEmuCaps()
+T5094 000:258.124 - 0.031ms returns 0xB9FF7BBF
+T5094 000:258.151 JLINK_TIF_GetAvailable(...)
+T5094 000:258.553 - 0.416ms
+T5094 000:258.588 JLINK_SetErrorOutHandler(...)
+T5094 000:258.605 - 0.025ms
+T5094 000:258.642 JLINK_ExecCommand("ProjectFile = "C:\Users\Lenovo\Documents\Code\C_NRF\nrfsdk17\NRF5_Basic\nRF5_SDK_17.1.0_ddde560\examples\ble_peripheral\Z40_QVGA_jpeg_Ex\pca10056\s140\arm5_no_packs\JLinkSettings.ini"", ...). 
+T5094 000:268.806   Ref file found at: C:\PF\MKR5\ARM\Segger\JLinkDevices.ref
+T5094 000:269.018   REF file references invalid XML file: C:\Program Files\SEGGER\JLink\JLinkDevices.xml
+T5094 000:269.399 - 10.768ms returns 0x00
+T5094 000:269.432 JLINK_ExecCommand("Device = nRF52840_xxAA", ...). 
+T5094 000:269.839   Device "NRF52840_XXAA" selected.
+T5094 000:270.175 - 0.727ms returns 0x00
+T5094 000:270.199 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T5094 000:270.219 - 0.011ms returns 0x01
+T5094 000:270.239 JLINK_GetHardwareVersion()
+T5094 000:270.255 - 0.024ms returns 97000
+T5094 000:270.276 JLINK_GetDLLVersion()
+T5094 000:270.294 - 0.026ms returns 78003
+T5094 000:270.312 JLINK_GetOEMString(...)
+T5094 000:270.336 JLINK_GetFirmwareString(...)
+T5094 000:270.361 - 0.033ms
+T5094 000:270.381 JLINK_GetDLLVersion()
+T5094 000:270.398 - 0.024ms returns 78003
+T5094 000:270.415 JLINK_GetCompileDateTime()
+T5094 000:270.433 - 0.027ms
+T5094 000:270.457 JLINK_GetFirmwareString(...)
+T5094 000:270.477 - 0.031ms
+T5094 000:270.500 JLINK_GetHardwareVersion()
+T5094 000:270.516 - 0.024ms returns 97000
+T5094 000:270.534 JLINK_GetSN()
+T5094 000:270.557 - 0.034ms returns 150710232
+T5094 000:270.582 JLINK_GetOEMString(...)
+T5094 000:270.612 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T5094 000:272.402 - 1.814ms returns 0x00
+T5094 000:272.441 JLINK_HasError()
+T5094 000:272.477 JLINK_SetSpeed(5000)
+T5094 000:273.092 - 0.632ms
+T5094 000:273.608 JLINK_HasError()
+T5094 000:273.634 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T5094 000:273.652 - 0.026ms returns JLINKARM_RESET_TYPE_NORMAL
+T5094 000:273.671 JLINK_Reset()
+T5094 000:274.121   InitTarget() start
+T5094 000:274.516    J-Link Script File: Executing InitTarget()
+T5094 000:377.181   InitTarget() end
+T5094 000:482.271   Failed to attach to CPU. Trying connect under reset.
+T5094 001:089.091   InitTarget() start
+T5094 001:089.144    J-Link Script File: Executing InitTarget()
+T5094 001:195.900   InitTarget() end
+T5094 001:302.000 - 1028.356ms
+T5094 001:302.054 JLINK_GetId()
+T5094 001:302.436   InitTarget() start
+T5094 001:302.489    J-Link Script File: Executing InitTarget()
+T5094 001:409.702   InitTarget() end
+T5094 001:589.123   InitTarget() start
+T5094 001:589.244    J-Link Script File: Executing InitTarget()
+T5094 001:696.306   InitTarget() end
+T5094 001:802.696 - 500.673ms returns 0x00000000
+T5094 001:802.751 JLINK_GetId()
+T5094 001:803.158   InitTarget() start
+T5094 001:803.205    J-Link Script File: Executing InitTarget()
+T5094 001:909.458   InitTarget() end
+T5094 002:089.292   InitTarget() start
+T5094 002:089.356    J-Link Script File: Executing InitTarget()
+T5094 002:196.184   InitTarget() end
+T5094 002:303.287 - 500.561ms returns 0x00000000
+T5094 002:310.029 JLINK_GetFirmwareString(...)
+T5094 002:310.056 - 0.035ms
+T5094 002:925.680 JLINK_Close()
+T5094 002:939.167 - 13.517ms
+T5094 002:939.213   
+T5094 002:939.233   Closed
